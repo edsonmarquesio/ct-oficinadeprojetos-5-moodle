@@ -26,7 +26,7 @@ Repositório Criado Para Homologação do Software Moodle Executando em Containe
     docker swarm init
 
 #
-### 3-Deploy das Aplicações MARIADB e GLPI
+### 3-Deploy das Aplicações MARIADB e MOODLE
 
     docker stack deploy -c docker-compose.yml moodle
 
